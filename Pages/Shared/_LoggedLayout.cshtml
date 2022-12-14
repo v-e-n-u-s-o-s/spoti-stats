@@ -8,9 +8,7 @@
     <link rel="stylesheet/scss" href="~/css/layout.scss" />
 </head>
 <body>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <nav class="navbar navbar-dark bg-dark py-3 navbar-expand-sm" role="navigation">
+    <nav class="navbar navbar-dark bg-dark py-3 navbar-expand-sm sticky-top" role="navigation">
         <div class="container-sm ">
             <a class="navbar-brand" href="#">
                 <img src="https://cdn2.downdetector.com/static/uploads/logo/Spotify_Logo_RGB_Green.png" alt="Logo" height="36" class="d-inline-block align-text-top">
@@ -21,19 +19,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav active">
                     <li class="nav-item">
-                        <a asp-page="/Stats/Index" class="nav-link active">Overview</a>
+                        <a asp-page="/Stats/Index" class="nav-link @(ViewBag.Title == "Home" ? "active" : "")">Overview</a>
                     </li>
                     <li class="nav-item">
-                        <a asp-page="/Stats/Tracks" class="nav-link">Top songs</a>
+                        <a asp-page="/Stats/Tracks" class="nav-link @(ViewBag.Title == "Top tracks" ? "active" : "")">Top songs</a>
                     </li>
                     <li class="nav-item">
-                        <a asp-page="/Stats/Artists" class="nav-link">Top artists</a>
+                        <a asp-page="/Stats/Artists" class="nav-link @(ViewBag.Title == "Top artists" ? "active" : "")">Top artists</a>
                     </li>
                     <li class="nav-item">
-                        <a asp-page="/Stats/Index" class="nav-link">Top albums</a>
+                        <a asp-page="/Stats/Index" class="nav-link @(ViewBag.Title == "Scheduler" ? "active" : "")">Top albums</a>
                     </li>
                     <li class="nav-item">
-                        <a asp-page="/Stats/Index" class="nav-link">Top genres</a>
+                        <a asp-page="/Stats/Index" class="nav-link @(ViewBag.Title == "Scheduler" ? "active" : "")">Top genres</a>
                     </li>
                 </ul>
             </div>
@@ -45,6 +43,9 @@
     </nav>
     @RenderBody()
     @RenderSection("Scripts", required: false)
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
     <script>
         (function () {
             document.getElementById("target").onclick = function () {
@@ -52,7 +53,7 @@
                 setTimeout(function () {
                     wnd.close();
                     window.location.href = "../"
-                }, 100);
+                }, 500);
                 return false;
             };
         })();

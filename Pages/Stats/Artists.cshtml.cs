@@ -20,7 +20,7 @@ namespace spoti_stats.Pages.Stats
         {
             var spotify = await _spotifyClientBuilder.BuildClient();
 
-            top_artists = await spotify.Personalization.GetTopArtists(new PersonalizationTopRequest { Limit = 100 });
+            top_artists = await spotify.Personalization.GetTopArtists(new PersonalizationTopRequest { Limit = 100, TimeRangeParam = PersonalizationTopRequest.TimeRange.ShortTerm});
 
         }
     }

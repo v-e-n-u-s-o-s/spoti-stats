@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sM1KT5wL/XYjDnuU1ug9iSc+PfNOlTNyx1cHP6+ni0U=",
+  "Hash": "tq8wo8agovqgzMThTv3SIevuW0tz/3N+jd86mypb89c=",
   "Source": "spoti_stats",
   "BasePath": "_content/spoti_stats",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "spoti_stats\\wwwroot",
       "Source": "spoti_stats",
-      "ContentRoot": "E:\\3tp\\spoti_stats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\janek\\OneDrive\\Dokumenty\\spoti_stats\\wwwroot\\",
       "BasePath": "_content/spoti_stats",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\3tp\\spoti_stats\\wwwroot\\css\\layout.css",
+      "Identity": "C:\\Users\\janek\\OneDrive\\Dokumenty\\spoti_stats\\wwwroot\\css\\layout.css",
       "SourceId": "spoti_stats",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\3tp\\spoti_stats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\janek\\OneDrive\\Dokumenty\\spoti_stats\\wwwroot\\",
       "BasePath": "_content/spoti_stats",
       "RelativePath": "css/layout.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\layout.css"
     },
     {
-      "Identity": "E:\\3tp\\spoti_stats\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\janek\\OneDrive\\Dokumenty\\spoti_stats\\wwwroot\\favicon.ico",
       "SourceId": "spoti_stats",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\3tp\\spoti_stats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\janek\\OneDrive\\Dokumenty\\spoti_stats\\wwwroot\\",
       "BasePath": "_content/spoti_stats",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\3tp\\spoti_stats\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\janek\\OneDrive\\Dokumenty\\spoti_stats\\wwwroot\\js\\site.js",
       "SourceId": "spoti_stats",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\3tp\\spoti_stats\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\janek\\OneDrive\\Dokumenty\\spoti_stats\\wwwroot\\",
       "BasePath": "_content/spoti_stats",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
