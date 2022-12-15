@@ -4,23 +4,21 @@
     Layout = "_LoggedLayout";
     ViewBag.Title = "Top tracks";
 }
-<div class="container-sm">
-    <div class="container text-center">
-        <div class="row align-items-start">
-
-
+<div class="container text-center">
+    <div class="row row-sm-6">
+        
             @foreach (var item in Model.top_tracks.Items)
             {
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
+            <div class="col p-3">
+                    <div class="card" style="width: 100%;">
                         <img src="@item.Album.Images.FirstOrDefault().Url" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">@item.Name</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">@item.Album.Name</h6>
                         </div>
                     </div>
                 </div>
             }
 
-        </div>
     </div>
 </div>

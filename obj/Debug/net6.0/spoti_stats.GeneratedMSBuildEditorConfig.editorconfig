@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = spoti_stats
 build_property.RootNamespace = spoti_stats
-build_property.ProjectDir = C:\Users\janek\OneDrive\Dokumenty\spoti_stats\
+build_property.ProjectDir = E:\3tp\spoti_stats\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\janek\OneDrive\Dokumenty\spoti_stats
+build_property.MSBuildProjectDirectory = E:\3tp\spoti_stats
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/janek/OneDrive/Dokumenty/spoti_stats/Pages/Error.cshtml]
+[E:/3tp/spoti_stats/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/janek/OneDrive/Dokumenty/spoti_stats/Pages/Index.cshtml]
+[E:/3tp/spoti_stats/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/janek/OneDrive/Dokumenty/spoti_stats/Pages/Shared/_Layout.cshtml]
+[E:/3tp/spoti_stats/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/janek/OneDrive/Dokumenty/spoti_stats/Pages/Shared/_LoggedLayout.cshtml]
+[E:/3tp/spoti_stats/Pages/Shared/_LoggedLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dnZWRMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/janek/OneDrive/Dokumenty/spoti_stats/Pages/Stats/Artists.cshtml]
+[E:/3tp/spoti_stats/Pages/Stats/Artists.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdHNcQXJ0aXN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/janek/OneDrive/Dokumenty/spoti_stats/Pages/Stats/Index.cshtml]
+[E:/3tp/spoti_stats/Pages/Stats/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/janek/OneDrive/Dokumenty/spoti_stats/Pages/Stats/Tracks.cshtml]
+[E:/3tp/spoti_stats/Pages/Stats/Tracks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdHNcVHJhY2tzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/janek/OneDrive/Dokumenty/spoti_stats/Pages/_ViewImports.cshtml]
+[E:/3tp/spoti_stats/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/janek/OneDrive/Dokumenty/spoti_stats/Pages/_ViewStart.cshtml]
+[E:/3tp/spoti_stats/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
