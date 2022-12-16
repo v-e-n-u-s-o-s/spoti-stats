@@ -4,8 +4,19 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="AspNet.Security.OAuth.Spotify" Version="6.0.14" />
+    <PackageReference Include="bootstrap.sass" Version="5.2.3" />
+    <PackageReference Include="BuildWebCompiler2022" Version="1.14.9.1" />
     <PackageReference Include="SpotifyAPI.Web" Version="6.3.0" />
     <PackageReference Include="SpotifyAPI.Web.Auth" Version="6.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
   </ItemGroup>
 </Project>

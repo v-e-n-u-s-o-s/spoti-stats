@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sgkIM4pQxoXwX1ZVSrWNXOzqmweHpkj1voclkfyl4bIh9t+gYKxXegVASEOd5hmgxNwPZkTYel3wFYUsLvGVRQ==",
+  "dgSpecHash": "Q4mOM4AixNeCwk+dSTSsBp22xzp0o5bnoizeLu87yEhmjVVuD65yCFVrAhqRH+YvG/2f5hqVB8fnd+MEmzkWwA==",
   "success": true,
   "projectFilePath": "E:\\3tp\\spoti_stats\\spoti_stats.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\student\\.nuget\\packages\\aspnet.security.oauth.spotify\\6.0.14\\aspnet.security.oauth.spotify.6.0.14.nupkg.sha512",
+    "C:\\Users\\student\\.nuget\\packages\\bootstrap.sass\\5.2.3\\bootstrap.sass.5.2.3.nupkg.sha512",
+    "C:\\Users\\student\\.nuget\\packages\\buildwebcompiler2022\\1.14.9.1\\buildwebcompiler2022.1.14.9.1.nupkg.sha512",
     "C:\\Users\\student\\.nuget\\packages\\embedio\\3.4.3\\embedio.3.4.3.nupkg.sha512",
     "C:\\Users\\student\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\student\\.nuget\\packages\\spotifyapi.web\\6.3.0\\spotifyapi.web.6.3.0.nupkg.sha512",

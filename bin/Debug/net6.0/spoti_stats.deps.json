@@ -9,8 +9,10 @@
       "spoti_stats/1.0.0": {
         "dependencies": {
           "AspNet.Security.OAuth.Spotify": "6.0.14",
+          "BuildWebCompiler2022": "1.14.9.1",
           "SpotifyAPI.Web": "6.3.0",
-          "SpotifyAPI.Web.Auth": "6.3.0"
+          "SpotifyAPI.Web.Auth": "6.3.0",
+          "bootstrap.sass": "5.2.3"
         },
         "runtime": {
           "spoti_stats.dll": {}
@@ -24,6 +26,8 @@
           }
         }
       },
+      "bootstrap.sass/5.2.3": {},
+      "BuildWebCompiler2022/1.14.9.1": {},
       "EmbedIO/3.4.3": {
         "dependencies": {
           "Unosquare.Swan.Lite": "3.0.0"
@@ -92,6 +96,20 @@
       "sha512": "sha512-uSynMbeZXlmGNQfFnQ7+M2Q4gilVcFyb00ptfUB0EBAm8m4nSaZ5EKyNQLhQtgIv7npD26+EBn6EP6wIdmFi4w==",
       "path": "aspnet.security.oauth.spotify/6.0.14",
       "hashPath": "aspnet.security.oauth.spotify.6.0.14.nupkg.sha512"
+    },
+    "bootstrap.sass/5.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rt2sbo+Ajce8+OwQP/kHeLyaaL6JTYtxq57LFyVK1X7neRJJfgDb/rrBLGA1j7A1UcSEmnjGqwLCfsRKzhUPdA==",
+      "path": "bootstrap.sass/5.2.3",
+      "hashPath": "bootstrap.sass.5.2.3.nupkg.sha512"
+    },
+    "BuildWebCompiler2022/1.14.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q4h4xRbMkvMLocRU+dgCvx9Zfh/5MnvEdEIA7UVct6/TPIcaQz3gr/T5rnaw5eLpagX4Y/p0TqSodTg9kGZBsw==",
+      "path": "buildwebcompiler2022/1.14.9.1",
+      "hashPath": "buildwebcompiler2022.1.14.9.1.nupkg.sha512"
     },
     "EmbedIO/3.4.3": {
       "type": "package",
